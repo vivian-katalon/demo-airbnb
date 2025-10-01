@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>c9fda13f-fbc4-4740-a7f1-186bbea5ffb1</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC9-View Living Area Photos and Verify Home Page</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>high-traffic</tag>
     <testCaseGuid>50aa5510-94ab-4bd7-b250-0bfab8ed587a</testCaseGuid>
     <variable>
         <defaultValue>'{{date_time}}'</defaultValue>

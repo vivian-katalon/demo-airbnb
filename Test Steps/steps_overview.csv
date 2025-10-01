@@ -1,0 +1,112 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+4,Close Share Popup and Verify Homepage,"Navigate to the homepage, close the share popup, and verify that the homepage is displayed.","Step 1: Navigate to /
+Step 2: Click on span close -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+9,View Living Area Photos and Verify Home Page,"Navigate to the rooms page, view all photos, scroll to the living area, and verify that the home page is displayed correctly.","Step 1: Navigate to /rooms/* with params (check in, check out, photo id, previous page section name, source impression id)
+Step 2: Click on button showAllPhotos
+Step 3: Click on button scrollToLivingArea -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+8,View and Share Room Photos from Rooms Page,"Navigate to the rooms page, view all photos, share them, and return to the homepage. Verify that the homepage is displayed.","Step 1: Navigate to /rooms/* with params (check in, check out, photo id, previous page section name, source impression id)
+Step 2: Click on button showAllPhotos
+Step 3: Click on button share
+Step 4: Click on span share
+Step 5: Click on span close
+Step 6: Click on link airbnbHomepage -> Navigate to page '/'
+Step 7: Click on link roomDetails -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",Medium,NEW
+1,Reserve Entire Rental Unit and Verify Homepage,"Navigate to the rooms page, change dates, reserve an entire rental unit, and proceed to the homepage. Verify that the homepage is displayed.","Step 1: Navigate to /rooms/* with params (check in, check out, photo id, previous page section name, source impression id)
+Step 2: Click on button changeDates
+Step 3: Click on div entireRentalUnitDetails
+Step 4: Click on button reserve -> Navigate to page '/book/stays/*'
+Step 5: Click on button next -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",Medium,NEW
+2,Book Stays and Return to Home Page,"Navigate to the booking page, confirm and pay, dismiss any alerts, return to the home page, and verify the apartment listings.","Step 1: Navigate to /book/stays/* with params (checkin, checkout, code, guestCurrency, isWorkTrip, numberOfAdults, numberOfChildren, numberOfGuests, numberOfInfants, numberOfPets, orderId, photoId, productId)
+Step 2: Click on div confirmAndPay
+Step 3: Click on span dismissAlert
+Step 4: Click on link airbnbHomepage -> Navigate to page '/'
+Step 5: Click on link apartmentListings (apartmentInAddress3) -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",Medium,NEW
+5,Navigate to Apartment Listings and Verify Home Page,"Start at the home page, navigate to apartment listings, view details, and verify that the home page is displayed correctly.","Step 1: Navigate to /
+Step 2: Click on link apartmentListings (apartmentInAddress)
+Step 3: Click on link apartmentListings (apartmentInAddress2)
+Step 4: Click on link homes -> Navigate to page '/homes'
+Step 5: Click on link apartmentDetails -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",Low,NEW
+3,View Room Photos and Share Details,"Navigate to the rooms page, view all photos, scroll to room details, share the information, and verify the home page.","Step 1: Navigate to /rooms/* with params (check in, check out, photo id, previous page section name, source impression id)
+Step 2: Click on button showAllPhotos
+Step 3: Click on button scrollToRoom (scrollToLivingRoom)
+Step 4: Click on button scrollToRoom (scrollToFullKitchen)
+Step 5: Click on button share
+Step 6: Click on span share
+Step 7: Click on div fullBathroomDetails -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",Low,NEW
+10,Explore New Experiences and Navigate Back to Home,"Navigate to the experiences page, explore options, and close dialogs. Return to the home page to verify navigation.","Step 1: Navigate to /
+Step 2: Click on link newExperiences -> Navigate to page '/experiences'
+Step 3: Click on span close
+Step 4: Click on link femaleRider -> Navigate to page '/experiences/*'
+Step 5: Click on button experienceOptions (takeSecondRide)
+Step 6: Click on span closeDialogOfferings
+Step 7: Click on button experienceOptions (exploreSaigon)
+Step 8: Click on span closeDialogOfferings
+Step 9: Click on button experienceOptions (tryBanhMi)
+Step 10: Click on span closeDialogOfferings -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Low,NEW
+11,Explore Room Details and Share Photos from Apartment Listings,"Navigate to the homepage, access room details, view photos, share them, and return to the homepage. Verify that the homepage is displayed.","Step 1: Navigate to /
+Step 2: Click on link roomInAddress -> Navigate to page '/rooms/*'
+Step 3: Click on button showAllPhotos
+Step 4: Click on div kitchenette
+Step 5: Click on button roomImages (sharedFullBathroomImage)
+Step 6: Click on button close
+Step 7: Click on button share
+Step 8: Click on span share
+Step 9: Click on span close
+Step 10: Click on link airbnbHomepage -> Navigate to page '/'
+Step 11: Click on link apartmentListings (homeInAddress) -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
+",Trivial,NEW
+7,Reserve Room and View Details Before Returning Home,"Navigate to the rooms page, reserve a room, view photos and details, then return to the home page to verify navigation.","Step 1: Navigate to /rooms/* with params (adults, check in, check out, children, federated search id, infants, pets, previous page section name, search mode, source impression id)
+Step 2: Click on button reserve -> Navigate to page '/book/stays/*'
+Step 3: Click on span back -> Navigate to page '/rooms/*'
+Step 4: Click on button showAllPhotos
+Step 5: Click on button roomImages (listingImage)
+Step 6: Click on span close
+Step 7: Click on button roomDetails (amenities)
+Step 8: Click on button roomDetails (reviews)
+Step 9: Click on button roomDetails (location) -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",Trivial,NEW
+12,Explore New Experiences and Verify Navigation,"Navigate to the home page, access new experiences, select a food tour, and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on link experiencesNew -> Navigate to page '/experiences'
+Step 3: Click on link saigonElevenTastingsFoodTour -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",Trivial,NEW
+6,View Room Details and Save to Wishlist,"Navigate to rooms, view images, save to wishlist, check in and out options, search for nearby homes, and verify navigation back to home.","Step 1: Navigate to /rooms/* with params (check in, check out, photo id, previous page section name, source impression id)
+Step 2: Click on button showAllPhotos
+Step 3: Click on button livingRoomImage
+Step 4: Click on button next
+Step 5: Click on button next
+Step 6: Click on button next
+Step 7: Click on button next
+Step 8: Click on button next
+Step 9: Click on button next
+Step 10: Click on button close
+Step 11: Click on button saveToWishlist
+Step 12: Click on span logIn
+Step 13: Click on span close
+Step 14: Click on div propertyDescription
+Step 15: Click on button checkInOut
+Step 16: Click on button search -> Navigate to page '/s/homes'
+Step 17: Click on button locationHomesNearby
+Step 18: Click on div locationSuggestion
+Step 19: Click on button search -> Navigate to page '/s/Paris--France/homes'
+Step 20: Click on link roomDetails -> Navigate to page ''
+Step 21: Take full page screenshot as checkpoint
+",Trivial,NEW

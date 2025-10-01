@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>26be1238-ac63-43c2-b691-f4759540d991</id>
+        </flow>
+    </customField>
+    <description>Navigate to the homepage, close the share popup, and verify that the homepage is displayed.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC4-Close Share Popup and Verify Homepage</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>9ac9cc95-2901-47b3-b612-eaf2dc1f0fcf</testCaseGuid>
+</TestCaseEntity>

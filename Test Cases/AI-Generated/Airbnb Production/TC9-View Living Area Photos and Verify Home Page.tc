@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>c9fda13f-fbc4-4740-a7f1-186bbea5ffb1</id>
+        </flow>
+    </customField>
+    <description>Navigate to the rooms page, view all photos, scroll to the living area, and verify that the home page is displayed correctly.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC9-View Living Area Photos and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>50aa5510-94ab-4bd7-b250-0bfab8ed587a</testCaseGuid>
+    <variable>
+        <defaultValue>'{{date_time}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>5e8bf2c3-aa9b-4586-a86e-dff04ae70e0c</id>
+        <masked>false</masked>
+        <name>rooms_check_in</name>
+    </variable>
+    <variable>
+        <defaultValue>'{{date_time}}'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>9728c56d-4913-4761-bccb-debda584c559</id>
+        <masked>false</masked>
+        <name>rooms_check_out</name>
+    </variable>
+    <variable>
+        <defaultValue>'1375904820508485070'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>602e8800-09ff-4d8a-9761-09c8cccd6be2</id>
+        <masked>false</masked>
+        <name>rooms_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'2106945189'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>f58022fa-e6fc-4cb6-87ad-e1f2cf5fba2e</id>
+        <masked>false</masked>
+        <name>rooms_photo_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'1000'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>1d1cad52-c855-45dc-931e-39e95efd91a4</id>
+        <masked>false</masked>
+        <name>rooms_previous_page_section_name</name>
+    </variable>
+    <variable>
+        <defaultValue>'p3_1759135330_P3HnwkkJIw91Pjkk'</defaultValue>
+        <description>Dynamic URL variable</description>
+        <id>e51fbbef-9297-4cae-8e32-7507cf465eb6</id>
+        <masked>false</masked>
+        <name>rooms_source_impression_id</name>
+    </variable>
+</TestCaseEntity>
